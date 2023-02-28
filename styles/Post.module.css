@@ -1,0 +1,13 @@
+.postDiv>p{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.postDiv > h2{
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.postDiv{
+    margin-bottom: 40px;
+}

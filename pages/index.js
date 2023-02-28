@@ -58,11 +58,10 @@ export default function Home() {
               </span>
             </div> 
           </form>
-          {isLoading
+          {searchVal!=="" && (isLoading 
             ?
             <p>Loading...</p>
             :
-            searchVal!=="" &&
             <div className={styles.searchResults}>
                 <div className={`mt-3`}>
                   {(newsList.length==0 
@@ -79,7 +78,7 @@ export default function Home() {
                   ))}
                 </div>
             </div>
-          }
+          )}
       </div>
         
     </div>

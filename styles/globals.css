@@ -1,0 +1,7 @@
+.commentDiv p{
+    font-weight: 200;
+    font-size: 14px;
+}
+p{
+    word-break: break-word;
+}
